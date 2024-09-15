@@ -9,7 +9,7 @@ btn.addEventListener("click", () => {
   document.body.style.backgroundColor = getRandomHexColor();
 });
 
-const span = document.querySelector("span");
-span.textContent = btn.value;
+const spanColor = document.querySelector(".color");
+spanColor.textContent = btn.value;
 
 //span.insertAdjacentHTML("beforeend", btn.value);
